@@ -50,7 +50,7 @@ public class Main {
         for (int i = 0; i < griffindors.length; i++) {
             Griffindoor griffindor = griffindors[i];
             System.out.println("Имя -" + griffindor.getName() + ",Фамилия - " + griffindor.getSurname() + ",Благородсва - " + griffindor.getNobility() + ",честь - " + griffindor.getHonor() + ",Храбрость - " + griffindor.getCourage());
-
+//РРР
         }
     }
 }

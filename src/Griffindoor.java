@@ -6,6 +6,8 @@ public class Griffindoor {
     String nobility;
     String honor;
     String courage;
+    private int magic;
+    private int transgression;
 
     public Griffindoor(String name, String surname, String nobility, String honor, String courage) {
         this.name = name;
@@ -56,20 +58,8 @@ public class Griffindoor {
         return this.courage;
     }
 
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        } else if (o != null && this.getClass() == o.getClass()) {
-            Griffindoor that = (Griffindoor) o;
-            return Objects.equals(this.name, that.name) && Objects.equals(this.surname, that.surname) && Objects.equals(this.nobility, that.nobility) && Objects.equals(this.honor, that.honor) && Objects.equals(this.courage, that.courage);
-        } else {
-            return false;
-        }
-    }
 
-    public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.surname, this.nobility, this.honor, this.courage});
-    }
+
 
     public String toString() {
         return "griffindor{name='" + this.name + "', surname='" + this.surname + "', nobility='" + this.nobility + "', honor='" + this.honor + "', courage='" + this.courage + "'}";

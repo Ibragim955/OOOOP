@@ -1,10 +1,7 @@
 public class Main {
-    class Hogvarts {
-        String name;
-        String surname;
-    }
 
     public static void main(String[] args) {
+
         Slizerin[] student = {
                 new Slizerin("Драко ", "Малфой ", "33 ", "23 ", "45", "77", "22"),
                 new Slizerin("Грэхэм ", "Монтегю", "21", "34", "10", "32", "23"),
@@ -51,6 +48,7 @@ public class Main {
             Griffindoor griffindor = griffindors[i];
             System.out.println("Имя -" + griffindor.getName() + ",Фамилия - " + griffindor.getSurname() + ",Благородсва - " + griffindor.getNobility() + ",честь - " + griffindor.getHonor() + ",Храбрость - " + griffindor.getCourage());
 //РРР
+
         }
     }
 }

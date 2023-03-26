@@ -6,6 +6,8 @@ public class Puffenduy {
     String hardworking;
     String loyal;
     String honest;
+    private int magic;
+    private int transgression;
 
     public static void pufenduy() {
     }
@@ -58,20 +60,7 @@ public class Puffenduy {
         return this.honest;
     }
 
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        } else if (o != null && this.getClass() == o.getClass()) {
-            Puffenduy pufenduy = (Puffenduy) o;
-            return Objects.equals(this.name, pufenduy.name) && Objects.equals(this.surname, pufenduy.surname) && Objects.equals(this.hardworking, pufenduy.hardworking) && Objects.equals(this.loyal, pufenduy.loyal) && Objects.equals(this.honest, pufenduy.honest);
-        } else {
-            return false;
-        }
-    }
 
-    public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.surname, this.hardworking, this.loyal, this.honest});
-    }
 
     public String toString() {
         return "pufenduy{name='" + this.name + "', surname='" + this.surname + "', hardworking='" + this.hardworking + "', loyal='" + this.loyal + "', honest='" + this.honest + "'}";

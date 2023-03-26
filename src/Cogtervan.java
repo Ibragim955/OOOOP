@@ -9,6 +9,8 @@ public class Cogtervan {
     String full;
     String creativity;
     private String fullCreativity;
+    private int magic;
+    private int transgression;
 
     public static void cogtervan() {
     }
@@ -74,21 +76,8 @@ public class Cogtervan {
     public String toString() {
         return "cogtevran{name='" + this.name + "', surname='" + this.surname + "', smart='" + this.smart + "', wise='" + this.wise + "', witty='" + this.witty + "', full='" + this.full + "', creativity='" + this.creativity + "', fullCreativity='" + this.fullCreativity + "'}";
     }
-
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        } else if (o != null && this.getClass() == o.getClass()) {
-            Cogtervan cogtevran = (Cogtervan) o;
-            return Objects.equals(this.name, cogtevran.name) && Objects.equals(this.surname, cogtevran.surname) && Objects.equals(this.smart, cogtevran.smart) && Objects.equals(this.wise, cogtevran.wise) && Objects.equals(this.witty, cogtevran.witty) && Objects.equals(this.full, cogtevran.full) && Objects.equals(this.creativity, cogtevran.creativity) && Objects.equals(this.fullCreativity, cogtevran.fullCreativity);
-        } else {
-            return false;
-        }
-    }
-
-    public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.surname, this.smart, this.wise, this.witty, this.full, this.creativity, this.fullCreativity});
-    }
 }
+
+
 
 

@@ -8,6 +8,8 @@ public class Slizerin {
     String resourcefulness;
     String determination;
     String lustPower;
+    private int magic;
+    private int transgression;
 
     public Slizerin(String name, String surname, String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
         this.name = name;
@@ -80,20 +82,6 @@ public class Slizerin {
         return "Slizerin{name='" + this.name + "', surname='" + this.surname + "', cunning='" + this.cunning + "', ambition='" + this.ambition + "', resourcefulness='" + this.resourcefulness + "', determination='" + this.determination + "', lustPower='" + this.lustPower + "'}";
     }
 
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        } else if (o != null && this.getClass() == o.getClass()) {
-            Slizerin slizerin = (Slizerin) o;
-            return Objects.equals(this.name, slizerin.name) && Objects.equals(this.surname, slizerin.surname) && Objects.equals(this.cunning, slizerin.cunning) && Objects.equals(this.ambition, slizerin.ambition) && Objects.equals(this.resourcefulness, slizerin.resourcefulness) && Objects.equals(this.determination, slizerin.determination) && Objects.equals(this.lustPower, slizerin.lustPower);
-        } else {
-            return false;
-        }
-    }
-
-    public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.surname, this.cunning, this.ambition, this.resourcefulness, this.determination, this.lustPower});
-    }
 }
 
 

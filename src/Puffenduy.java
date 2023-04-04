@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Puffenduy {
+public class Puffenduy extends HogwartsStudent {
     String name;
     String surname;
     String hardworking;

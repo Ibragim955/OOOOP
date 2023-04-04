@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class HogwartsStudent {
 
         String name;
@@ -6,7 +8,7 @@ public class HogwartsStudent {
  return magic + transgression;
     }
 
-    public HogwartsStudent(String name, String surname, int magic, int transgression, int ability) {
+    public HogwartsStudent() {
         this.name = name;
         this.surname = surname;
         this.magic = magic;
@@ -54,6 +56,30 @@ public class HogwartsStudent {
     }
 
     private int ability;
+
+    @Override
+    public String toString() {
+        return "HogwartsStudent{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", magic=" + magic +
+                ", transgression=" + transgression +
+                ", ability=" + ability +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        HogwartsStudent that = (HogwartsStudent) o;
+        return magic == that.magic && transgression == that.transgression && ability == that.ability && Objects.equals(name, that.name) && Objects.equals(surname, that.surname);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, surname, magic, transgression, ability);
+    }
 
     public void compareHogwarts(HogwartsStudent hogwartsStudent) {
         int ability1 = ability;

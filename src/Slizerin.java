@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Slizerin {
+public class Slizerin extends HogwartsStudent {
     String name;
     String surname;
     String cunning;
@@ -12,6 +12,7 @@ public class Slizerin {
     private int transgression;
 
     public Slizerin(String name, String surname, String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
+        super();
         this.name = name;
         this.surname = surname;
         this.cunning = cunning;

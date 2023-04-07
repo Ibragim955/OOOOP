@@ -6,8 +6,7 @@ public class Puffenduy extends HogwartsStudent {
     String hardworking;
     String loyal;
     String honest;
-    private int magic;
-    private int transgression;
+
 
     public static void pufenduy() {
     }

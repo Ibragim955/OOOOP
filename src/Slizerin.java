@@ -8,8 +8,7 @@ public class Slizerin extends HogwartsStudent {
     String resourcefulness;
     String determination;
     String lustPower;
-    private int magic;
-    private int transgression;
+
 
     public Slizerin(String name, String surname, String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
         super();

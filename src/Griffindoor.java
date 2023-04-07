@@ -6,8 +6,7 @@ public class Griffindoor extends HogwartsStudent {
     String nobility;
     String honor;
     String courage;
-    private int magic;
-    private int transgression;
+
 
     public Griffindoor(String name, String surname, String nobility, String honor, String courage) {
         this.name = name;

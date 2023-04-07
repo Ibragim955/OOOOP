@@ -9,8 +9,7 @@ public class Cogtervan extends HogwartsStudent{
     String full;
     String creativity;
     private String fullCreativity;
-    private int magic;
-    private int transgression;
+
 
     public static void cogtervan() {
     }

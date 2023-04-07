@@ -13,7 +13,7 @@ public class HogwartsStudent {
         this.surname = surname;
         this.magic = magic;
         this.transgression = transgression;
-        this.ability = ability;
+
     }
 
     private int magic;

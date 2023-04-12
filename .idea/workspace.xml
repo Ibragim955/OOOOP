@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08db6f0d-9efe-4f0a-99d3-1e1acef14df6" name="Changes" comment="sd">
+    <list default="true" id="08db6f0d-9efe-4f0a-99d3-1e1acef14df6" name="Changes" comment="sdd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cogtervan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cogtervan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Griffindoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Griffindoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HogwartsStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HogwartsStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Puffenduy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Puffenduy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slizerin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Slizerin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +26,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="JKKK" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a60b7e31-2196-4e90-b80b-10c330ecd693" />
+        <option name="url" value="https://github.com/Ibragim955/OOOOP.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,6 +67,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="oooop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +92,8 @@
       <workItem from="1679305623878" duration="1844000" />
       <workItem from="1679599401322" duration="1149000" />
       <workItem from="1679829210100" duration="2474000" />
+      <workItem from="1680857365434" duration="1023000" />
+      <workItem from="1681239044608" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="sd">
       <created>1679833916665</created>
@@ -62,14 +102,33 @@
       <option name="project" value="LOCAL" />
       <updated>1679833916665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sdd">
+      <created>1680857955170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680857955170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sd" />
-    <option name="LAST_COMMIT_MESSAGE" value="sd" />
+    <MESSAGE value="sdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdd" />
   </component>
 </project>

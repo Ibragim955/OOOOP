@@ -1,8 +1,7 @@
 import java.util.Objects;
 
-public class Puffenduy extends HogwartsStudent {
-    String name;
-    String surname;
+class Puffenduy extends HogwartsStudent {
+
     String hardworking;
     String loyal;
     String honest;

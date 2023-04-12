@@ -1,8 +1,7 @@
 import java.util.Objects;
 
-public class Slizerin extends HogwartsStudent {
-    String name;
-    String surname;
+ class Slizerin extends HogwartsStudent {
+
     String cunning;
     String ambition;
     String resourcefulness;

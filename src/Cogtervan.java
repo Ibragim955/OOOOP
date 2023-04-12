@@ -1,8 +1,7 @@
 import java.util.Objects;
 
-public class Cogtervan extends HogwartsStudent{
-    String name;
-    String surname;
+ class Cogtervan extends HogwartsStudent{
+
     String smart;
     String wise;
     String witty;

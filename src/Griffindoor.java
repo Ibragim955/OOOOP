@@ -1,8 +1,7 @@
 import java.util.Objects;
 
-public class Griffindoor extends HogwartsStudent {
-    String name;
-    String surname;
+class Griffindoor extends HogwartsStudent {
+
     String nobility;
     String honor;
     String courage;

@@ -14,7 +14,6 @@ public class Main {
         }
 
 
-
         Cogtervan[] students = {
                 new Cogtervan("Чжоу", "Чанг", "55", "61", "45", "23"),
                 new Cogtervan("Падма", "Патил", "21", "34", "54", "65"),
@@ -34,14 +33,14 @@ public class Main {
         };
         System.out.println("Студенты Пуфендуя" + pufenduys.length);
         for (int i = 0; i < pufenduys.length; i++) {
-           Puffenduy pufenduy = pufenduys[i];
+            Puffenduy pufenduy = pufenduys[i];
             System.out.println("Имя -" + pufenduy.getName() + ",Фамилия -" + pufenduy.getSurname() + ",Трудолюбивы - " + pufenduy.getHardworking() + ",Верны - " + pufenduy.getLoyal() + ",Честны - " + pufenduy.getHonest());
         }
 
         Griffindoor[] griffindors = {
-                new Griffindoor("Гарри","Поттер","21","24","54"),
-                new Griffindoor("Гермиона","Грейнджер","32","44","76"),
-                new Griffindoor("Рон","Уизли","45","66","77"),
+                new Griffindoor("Гарри", "Поттер", "21", "24", "54"),
+                new Griffindoor("Гермиона", "Грейнджер", "32", "44", "76"),
+                new Griffindoor("Рон", "Уизли", "45", "66", "77"),
         };
         System.out.println("Студенты Гриффиндора " + griffindors.length);
         for (int i = 0; i < griffindors.length; i++) {

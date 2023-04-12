@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class HogwartsStudent {
+class HogwartsStudent {
 
         String name;
         String surname;

@@ -1,17 +1,17 @@
 import java.util.Objects;
 
-public class Slizerin {
-    String name;
-    String surname;
-    String cunning;
-    String ambition;
-    String resourcefulness;
-    String determination;
-    String lustPower;
+ public class Slizerin extends HogwartsStudent {
 
-    public Slizerin(String name, String surname, String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
-        this.name = name;
-        this.surname = surname;
+    private String cunning;
+    private String ambition;
+    private String resourcefulness;
+    private String determination;
+    private String lustPower;
+
+
+    public Slizerin(String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
+        super();
+
         this.cunning = cunning;
         this.ambition = ambition;
         this.resourcefulness = resourcefulness;
@@ -20,13 +20,6 @@ public class Slizerin {
     }
 
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
 
     public void setCunning(String cunning) {
         this.cunning = cunning;
@@ -48,13 +41,6 @@ public class Slizerin {
         this.lustPower = lustPower;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public String getSurname() {
-        return this.surname;
-    }
 
     public String getCunning() {
         return this.cunning;
@@ -77,23 +63,9 @@ public class Slizerin {
     }
 
     public String toString() {
-        return "Slizerin{name='" + this.name + "', surname='" + this.surname + "', cunning='" + this.cunning + "', ambition='" + this.ambition + "', resourcefulness='" + this.resourcefulness + "', determination='" + this.determination + "', lustPower='" + this.lustPower + "'}";
+        return "Slizerin{ cunning='" + this.cunning + "', ambition='" + this.ambition + "', resourcefulness='" + this.resourcefulness + "', determination='" + this.determination + "', lustPower='" + this.lustPower + "'}";
     }
 
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        } else if (o != null && this.getClass() == o.getClass()) {
-            Slizerin slizerin = (Slizerin) o;
-            return Objects.equals(this.name, slizerin.name) && Objects.equals(this.surname, slizerin.surname) && Objects.equals(this.cunning, slizerin.cunning) && Objects.equals(this.ambition, slizerin.ambition) && Objects.equals(this.resourcefulness, slizerin.resourcefulness) && Objects.equals(this.determination, slizerin.determination) && Objects.equals(this.lustPower, slizerin.lustPower);
-        } else {
-            return false;
-        }
-    }
-
-    public int hashCode() {
-        return Objects.hash(new Object[]{this.name, this.surname, this.cunning, this.ambition, this.resourcefulness, this.determination, this.lustPower});
-    }
 }
 
 

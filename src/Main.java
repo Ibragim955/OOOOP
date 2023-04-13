@@ -1,10 +1,7 @@
 public class Main {
-    class Hogvarts {
-        String name;
-        String surname;
-    }
 
     public static void main(String[] args) {
+
         Slizerin[] student = {
                 new Slizerin("Драко ", "Малфой ", "33 ", "23 ", "45", "77", "22"),
                 new Slizerin("Грэхэм ", "Монтегю", "21", "34", "10", "32", "23"),
@@ -15,7 +12,6 @@ public class Main {
             Slizerin slizerin = student[i];
             System.out.println("Имя - " + slizerin.getName() + ", Фамилия - " + slizerin.getSurname() + ", Хитрость - " + slizerin.getCunning() + ", Решительность " + slizerin.getAmbition() + ", Амбициозность " + slizerin.getResourcefulness() + ", Находчивость " + slizerin.getDetermination() + ", Жажда власти " + slizerin.getLustPower());
         }
-
 
 
         Cogtervan[] students = {
@@ -37,19 +33,20 @@ public class Main {
         };
         System.out.println("Студенты Пуфендуя" + pufenduys.length);
         for (int i = 0; i < pufenduys.length; i++) {
-           Puffenduy pufenduy = pufenduys[i];
+            Puffenduy pufenduy = pufenduys[i];
             System.out.println("Имя -" + pufenduy.getName() + ",Фамилия -" + pufenduy.getSurname() + ",Трудолюбивы - " + pufenduy.getHardworking() + ",Верны - " + pufenduy.getLoyal() + ",Честны - " + pufenduy.getHonest());
         }
 
         Griffindoor[] griffindors = {
-                new Griffindoor("Гарри","Поттер","21","24","54"),
-                new Griffindoor("Гермиона","Грейнджер","32","44","76"),
-                new Griffindoor("Рон","Уизли","45","66","77"),
+                new Griffindoor("Гарри", "Поттер", "21", "24", "54"),
+                new Griffindoor("Гермиона", "Грейнджер", "32", "44", "76"),
+                new Griffindoor("Рон", "Уизли", "45", "66", "77"),
         };
         System.out.println("Студенты Гриффиндора " + griffindors.length);
         for (int i = 0; i < griffindors.length; i++) {
             Griffindoor griffindor = griffindors[i];
             System.out.println("Имя -" + griffindor.getName() + ",Фамилия - " + griffindor.getSurname() + ",Благородсва - " + griffindor.getNobility() + ",честь - " + griffindor.getHonor() + ",Храбрость - " + griffindor.getCourage());
+//РРР
 
         }
     }

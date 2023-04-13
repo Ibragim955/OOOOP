@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
 
         Slizerin[] student = {
-                new Slizerin("Драко ", "Малфой ", "33 ", "23 ", "45", "77", "22"),
-                new Slizerin("Грэхэм ", "Монтегю", "21", "34", "10", "32", "23"),
-                new Slizerin("Грегори ", "Гойл", "76", "54", "65", "77", "76"),
+                new Slizerin("33 ", "23 ", "45", "77", "22"),
+                new Slizerin("21", "34", "10", "32", "23"),
+                new Slizerin( "76", "54", "65", "77", "76"),
         };
         System.out.println("Студенты Слизерин " + student.length);
         for (int i = 0; i < student.length; i++) {
@@ -15,9 +15,9 @@ public class Main {
 
 
         Cogtervan[] students = {
-                new Cogtervan("Чжоу", "Чанг", "55", "61", "45", "23"),
-                new Cogtervan("Падма", "Патил", "21", "34", "54", "65"),
-                new Cogtervan("Маркус", "Белби", "87", "67", "64", "44"),
+                new Cogtervan( "55", "61", "45", "23"),
+                new Cogtervan( "21", "34", "54", "65"),
+                new Cogtervan( "87", "67", "64", "44"),
         };
         System.out.println(" Студенты Когтервана  " + students.length);
         for (int i = 0; i < students.length; i++) {
@@ -27,9 +27,9 @@ public class Main {
 
 
         Puffenduy[] pufenduys = {
-                new Puffenduy("Захария", "Смит", "23", "44", "56"),
-                new Puffenduy("Седрик", "Диггори", "24", "44", "65"),
-                new Puffenduy("Джастин", "Финч-Флетчли", "67", "88", "100"),
+                new Puffenduy( "23", "44", "56"),
+                new Puffenduy("24", "44", "65"),
+                new Puffenduy("67", "88", "100"),
         };
         System.out.println("Студенты Пуфендуя" + pufenduys.length);
         for (int i = 0; i < pufenduys.length; i++) {

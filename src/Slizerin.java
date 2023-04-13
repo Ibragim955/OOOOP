@@ -1,18 +1,17 @@
 import java.util.Objects;
 
- class Slizerin extends HogwartsStudent {
+ public class Slizerin extends HogwartsStudent {
 
-    String cunning;
-    String ambition;
-    String resourcefulness;
-    String determination;
-    String lustPower;
+    private String cunning;
+    private String ambition;
+    private String resourcefulness;
+    private String determination;
+    private String lustPower;
 
 
-    public Slizerin(String name, String surname, String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
+    public Slizerin(String cunning, String ambition, String resourcefulness, String determination, String lustPower) {
         super();
-        this.name = name;
-        this.surname = surname;
+
         this.cunning = cunning;
         this.ambition = ambition;
         this.resourcefulness = resourcefulness;
@@ -21,13 +20,6 @@ import java.util.Objects;
     }
 
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
 
     public void setCunning(String cunning) {
         this.cunning = cunning;
@@ -49,13 +41,6 @@ import java.util.Objects;
         this.lustPower = lustPower;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public String getSurname() {
-        return this.surname;
-    }
 
     public String getCunning() {
         return this.cunning;
@@ -78,7 +63,7 @@ import java.util.Objects;
     }
 
     public String toString() {
-        return "Slizerin{name='" + this.name + "', surname='" + this.surname + "', cunning='" + this.cunning + "', ambition='" + this.ambition + "', resourcefulness='" + this.resourcefulness + "', determination='" + this.determination + "', lustPower='" + this.lustPower + "'}";
+        return "Slizerin{ cunning='" + this.cunning + "', ambition='" + this.ambition + "', resourcefulness='" + this.resourcefulness + "', determination='" + this.determination + "', lustPower='" + this.lustPower + "'}";
     }
 
 }

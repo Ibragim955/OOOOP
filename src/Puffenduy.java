@@ -1,30 +1,23 @@
 import java.util.Objects;
 
-class Puffenduy extends HogwartsStudent {
+public class Puffenduy extends HogwartsStudent {
 
-    String hardworking;
-    String loyal;
-    String honest;
+    private  String hardworking;
+    private  String loyal;
+    private String honest;
 
 
     public static void pufenduy() {
     }
 
-    public Puffenduy(String name, String surname, String hardworking, String loyal, String honest) {
-        this.name = name;
-        this.surname = surname;
+    public Puffenduy( String hardworking, String loyal, String honest) {
+
         this.hardworking = hardworking;
         this.loyal = loyal;
         this.honest = honest;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
 
     public void setHardworking(String hardworking) {
         this.hardworking = hardworking;
@@ -38,13 +31,6 @@ class Puffenduy extends HogwartsStudent {
         this.honest = honest;
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public String getSurname() {
-        return this.surname;
-    }
 
     public String getHardworking() {
         return this.hardworking;
@@ -61,7 +47,7 @@ class Puffenduy extends HogwartsStudent {
 
 
     public String toString() {
-        return "pufenduy{name='" + this.name + "', surname='" + this.surname + "', hardworking='" + this.hardworking + "', loyal='" + this.loyal + "', honest='" + this.honest + "'}";
+        return "pufenduy{hardworking='" + this.hardworking + "', loyal='" + this.loyal + "', honest='" + this.honest + "'}";
     }
 }
 

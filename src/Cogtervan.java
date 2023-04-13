@@ -1,35 +1,29 @@
 import java.util.Objects;
 
- class Cogtervan extends HogwartsStudent{
+public class Cogtervan extends HogwartsStudent{
 
-    String smart;
-    String wise;
-    String witty;
-    String full;
-    String creativity;
+    private  String smart;
+    private  String wise;
+    private  String witty;
+    private  String full;
+    private  String creativity;
     private String fullCreativity;
 
 
     public static void cogtervan() {
     }
 
-    public Cogtervan(String name, String surname, String smart, String wise, String witty, String fullCreativity) {
-        this.name = name;
-        this.surname = surname;
+    public Cogtervan( String smart, String wise, String witty, String fullCreativity) {
+
         this.smart = smart;
         this.wise = wise;
         this.witty = witty;
         this.fullCreativity = fullCreativity;
     }
 
-    public void setName(String name) {
-        this.name = name;
-        System.out.println(" Чжоу Чанг, Падма Патил и Маркус Белби");
-    }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
+
+
 
     public void setSmart(String smart) {
         this.smart = smart;
@@ -47,13 +41,7 @@ import java.util.Objects;
         this.fullCreativity = fullCreativity;
     }
 
-    public String getName() {
-        return this.name;
-    }
 
-    public String getSurname() {
-        return this.surname;
-    }
 
     public String getSmart() {
         return this.smart;
@@ -72,7 +60,7 @@ import java.util.Objects;
     }
 
     public String toString() {
-        return "cogtevran{name='" + this.name + "', surname='" + this.surname + "', smart='" + this.smart + "', wise='" + this.wise + "', witty='" + this.witty + "', full='" + this.full + "', creativity='" + this.creativity + "', fullCreativity='" + this.fullCreativity + "'}";
+        return "cogtevran{smart='" + this.smart + "', wise='" + this.wise + "', witty='" + this.witty + "', full='" + this.full + "', creativity='" + this.creativity + "', fullCreativity='" + this.fullCreativity + "'}";
     }
 }
 

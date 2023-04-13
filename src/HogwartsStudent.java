@@ -1,9 +1,9 @@
 import java.util.Objects;
 
-class HogwartsStudent {
+public class HogwartsStudent {
 
-        String name;
-        String surname;
+       private String name;
+        private String surname;
         private int ability(){
  return magic + transgression;
     }
@@ -18,6 +18,7 @@ class HogwartsStudent {
 
     private int magic;
         private int transgression;
+
 
     public String getName() {
         return name;
@@ -37,6 +38,7 @@ class HogwartsStudent {
 
     public void setName(String name) {
         this.name = name;
+
     }
 
     public void setSurname(String surname) {
@@ -103,6 +105,7 @@ class HogwartsStudent {
                         ability1,
                         ability2);
             }
+
         }
     }
 
